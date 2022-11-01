@@ -3,9 +3,8 @@
 
 }
 
-header {
+nav {
     background-color: #E0AFA0;
-
 }
 
 h1,
@@ -27,7 +26,7 @@ span {
     vertical-align: middle;
 }
 
-#root {
+body{
     background-color: #F4F3EE;
     color: black
 }
@@ -56,13 +55,15 @@ form {
     margin: 25px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: #463F3A;
+    color: white
 }
 
 .form-group {
     padding: 10px
 }
 
-.active {
+.activeCustom {
     box-shadow: inset 0 -150px 0 0 #8A817C;
     color: white;
 }
