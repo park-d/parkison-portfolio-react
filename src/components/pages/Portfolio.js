@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Portfolio() {
     return (
-        <div className='page-content'>
+        <div className='page-content container py-5'>
             <h2>Portfolio</h2>
             <p>
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

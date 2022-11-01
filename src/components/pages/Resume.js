@@ -3,9 +3,9 @@ import resume from '../../images/ParkisonResume.pdf';
 
 export default function Resume() {
     return (
-        <div className='page-content'>
+        <div className='page-content container py-5'>
             <h2>Resume</h2>
-            <p>Download my <a href={resume} target="_blank" rel="noreferrer"> resume </a></p>
+            <p>Download my<a href={resume} target="_blank" rel="noreferrer">resume </a></p>
             <h3>Front-End Proficiencies</h3>
             <ul>
                 <li>HTML</li>
