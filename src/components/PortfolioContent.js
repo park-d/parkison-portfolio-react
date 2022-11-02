@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Footer from './pages/Footer';
 
 export default function PortfolioContent() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -27,6 +28,7 @@ export default function PortfolioContent() {
         <div>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer/>
         </div>
     );
 }

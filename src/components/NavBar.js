@@ -1,10 +1,12 @@
 import React from 'react';
+import logo from '../images/spark-swatch.png'
 
 function NavTabs({currentPage, handlePageChange}) {
     return (
         <nav className="navbar navbar-expand-lg">
-            <div className = 'container'>
-            <h1 className="py-5">DEVAN N. PARKISON <span>(park-d)</span></h1>
+            <div className = 'container '>
+            <img className="logo" src={logo} alt="Spark Design & Consulting Logo"/>
+            <h1 className="name py-5">DEVAN N. PARKISON</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
