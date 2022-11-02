@@ -89,7 +89,6 @@ footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-bottom: 0px;
 }
 
 .logo {
@@ -113,4 +112,27 @@ footer {
 
 .projectContainer{
     justify-content: space-evenly
+}
+
+.about-icons-container{
+    text-align: center;
+    color: var(--outrageous)
+}
+
+.about-icons{
+    padding: 8px
+}
+
+.avatar{
+    float: left;
+    margin-bottom: 0;
+}
+
+.about-content{
+    height:max-content;
+    vertical-align: middle;
+}
+
+.page-content{
+    margin-bottom: 20%;
 }
