@@ -67,7 +67,7 @@ form {
     margin: 25px;
     border: 1px solid var(--peach);
     border-radius: 10px;
-    background-color: var(--outrageous);
+    background-color: var(--peach);
     color: var(--black)
 }
 
@@ -89,7 +89,7 @@ footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .logo {
@@ -100,4 +100,17 @@ footer {
 
 .customContainer{
     justify-content: left !important;
+}
+
+.project-img{
+    width: 400x;
+    height: auto;
+}
+
+.project-cards{
+    padding: 10px;
+}
+
+.projectContainer{
+    justify-content: space-evenly
 }
