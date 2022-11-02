@@ -3,7 +3,8 @@ import Project from './Project';
 
 function Portfolio() {
     return (
-        <div className="container page-content">
+        <div className="container page-content py-5">
+                <h2>PORTFOLIO</h2>
             <div class="row projectContainer">
                 <Project
                     name='TeamSpeak'

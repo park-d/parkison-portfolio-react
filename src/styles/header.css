@@ -64,7 +64,7 @@ button:hover {
 
 form {
     padding: 15px;
-    margin: 25px;
+    margin-top: 7%;
     border: 1px solid var(--peach);
     border-radius: 10px;
     background-color: var(--peach);
@@ -84,7 +84,7 @@ footer {
     background-color: var(--granite);
     color: var(--white);
     position: fixed;
-    padding: 47px;
+    padding: 2%;
     background-color: var(--granite);
     bottom: 0px;
     left: 0px;
@@ -111,28 +111,25 @@ footer {
 }
 
 .projectContainer{
+    margin-top: 7%;
     justify-content: space-evenly
 }
 
 .about-icons-container{
     text-align: center;
-    color: var(--outrageous)
+    color: var(--outrageous);
+    height:auto;
+    width: auto
 }
 
 .about-icons{
-    padding: 8px
-}
-
-.avatar{
-    float: left;
-    margin-bottom: 0;
-}
-
-.about-content{
-    height:max-content;
-    vertical-align: middle;
+    padding: 8px;
 }
 
 .page-content{
     margin-bottom: 20%;
+}
+
+.about-content, .resume-dl{
+    margin-top: 7%;
 }
