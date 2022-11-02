@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/parkison-portfolio-react/static/css/main.16e5bd9d.css",
-    "main.js": "/parkison-portfolio-react/static/js/main.05d9c6cd.js",
+    "main.css": "/parkison-portfolio-react/static/css/main.2650456d.css",
+    "main.js": "/parkison-portfolio-react/static/js/main.c6eee986.js",
     "static/media/ParkisonResume.pdf": "/parkison-portfolio-react/static/media/ParkisonResume.df2103c42c6b09b93149.pdf",
+    "static/media/spark-swatch.png": "/parkison-portfolio-react/static/media/spark-swatch.f2be3e5fbaa975f817b0.png",
     "index.html": "/parkison-portfolio-react/index.html",
-    "main.16e5bd9d.css.map": "/parkison-portfolio-react/static/css/main.16e5bd9d.css.map",
-    "main.05d9c6cd.js.map": "/parkison-portfolio-react/static/js/main.05d9c6cd.js.map"
+    "main.2650456d.css.map": "/parkison-portfolio-react/static/css/main.2650456d.css.map",
+    "main.c6eee986.js.map": "/parkison-portfolio-react/static/js/main.c6eee986.js.map"
   },
   "entrypoints": [
-    "static/css/main.16e5bd9d.css",
-    "static/js/main.05d9c6cd.js"
+    "static/css/main.2650456d.css",
+    "static/js/main.c6eee986.js"
   ]
 }
