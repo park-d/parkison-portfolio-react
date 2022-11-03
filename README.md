@@ -1,4 +1,4 @@
-# Parkson Portfolio
+# Parkison Portfolio
 
 [![This repository is Unlicensed and free to use.](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
