@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/parkison-portfolio-react/static/css/main.883d5995.css",
-    "main.js": "/parkison-portfolio-react/static/js/main.8bc5cee2.js",
+    "main.css": "/parkison-portfolio-react/static/css/main.e6ce5dd3.css",
+    "main.js": "/parkison-portfolio-react/static/js/main.998c12d7.js",
     "static/media/team-speak-photo.JPG": "/parkison-portfolio-react/static/media/team-speak-photo.edd1e2b33a377df65c5c.JPG",
     "static/media/weather-photo.JPG": "/parkison-portfolio-react/static/media/weather-photo.87e3dbfd87dee18d9ae7.JPG",
     "static/media/santo_gizmo.jpg": "/parkison-portfolio-react/static/media/santo_gizmo.baca0601e98794f55457.jpg",
@@ -13,11 +13,11 @@
     "static/media/jate-photo.JPG": "/parkison-portfolio-react/static/media/jate-photo.b0ef88b4c071b0ae56fa.JPG",
     "static/media/dnp-avatar-svg.svg": "/parkison-portfolio-react/static/media/dnp-avatar-svg.0077f7e674c2534f29f963fe28624c0a.svg",
     "index.html": "/parkison-portfolio-react/index.html",
-    "main.883d5995.css.map": "/parkison-portfolio-react/static/css/main.883d5995.css.map",
-    "main.8bc5cee2.js.map": "/parkison-portfolio-react/static/js/main.8bc5cee2.js.map"
+    "main.e6ce5dd3.css.map": "/parkison-portfolio-react/static/css/main.e6ce5dd3.css.map",
+    "main.998c12d7.js.map": "/parkison-portfolio-react/static/js/main.998c12d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.883d5995.css",
-    "static/js/main.8bc5cee2.js"
+    "static/css/main.e6ce5dd3.css",
+    "static/js/main.998c12d7.js"
   ]
 }
