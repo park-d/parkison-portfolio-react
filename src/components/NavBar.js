@@ -7,42 +7,42 @@ function NavTabs({currentPage, handlePageChange}) {
             <div className = 'container '>
             <img className="logo" src={logo} alt="Spark Design & Consulting Logo"/>
             <h1 className="name py-5">D. PARKISON</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
+                <div className="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
+                    <div className="navbar-nav">
                     <a
                         href="#about"
                         onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'activeCustom px-2' : 'px-2'}
+                            className={currentPage === 'About' ? 'styled-anchor activeCustom px-2' : 'styled-anchor px-2'}
                     >
                         About
                     </a>
-                    <a
-                        href="#portfolio"
-                        onClick={() => handlePageChange('Portfolio')}
-                        className={currentPage === 'Portfolio' ? 'activeCustom px-2' : 'px-2'}
+                        <a
+                            href="#portfolio"
+                            onClick={() => handlePageChange('Portfolio')}
+                            className={currentPage === 'Portfolio' ? 'styled-anchor activeCustom px-2' : 'styled-anchor px-2'} 
                     >
                         Portfolio
                     </a>
                     <a
                         href="#contact"
                         onClick={() => handlePageChange('Contact')}
-                        className={currentPage === 'Contact' ? 'activeCustom px-2' : 'px-2'}
+                            className={currentPage === 'Contact' ? 'styled-anchor activeCustom px-2' : 'styled-anchor px-2'}
                     >
                         Contact
                     </a>
                     <a
                         href="#resume"
                         onClick={() => handlePageChange('Resume')}
-                        className={currentPage === 'Resume' ? 'activeCustom px-2' : 'px-2'}
+                            className={currentPage === 'Resume' ? 'styled-anchor activeCustom px-2' : 'styled-anchor  px-2'}
                     >
                         Resume
-                    </a>
+                            </a>
+                        </div>
                 </div>
                 </div>
-            </div>
         </nav>
     );
 }

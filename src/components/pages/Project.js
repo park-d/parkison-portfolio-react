@@ -2,18 +2,18 @@ import React from 'react';
 
 function Project(props) {
     return (
-        <div class="col-sm-12 col-md-6 col-lg-5 project-cards">
-                <div class="card">
-                    <img className = "project-img" src="https://via.placeholder.com/400"  alt="..." />
-                    <div class="card-body">
-                        <div className="card-body">
-                            <h4 className="card-title">{props.name}</h4>
-                            <a href={props.github}><i class="fa-brands fa-github fa-xl"></i></a>
-                            <a href={props.deployed}>View Application</a>
-                        </div>
+        <div className="col-sm-12 col-md-6 col-lg-5 project-cards">
+            <div className="card">
+                <img className="card-img-top project-img" src={props.image} alt={props.name} />
+                <div className="card-body">
+                    <h4 className="card-title d-flex justify-content-center">{props.name}</h4>
+                    <div className='d-flex justify-content-center styled-anchors'>
+                        <a className='styled-anchor' href={props.deployed}>View Application</a>
+                        <a className='styled-anchor' href={props.github}><i className="fa-brands fa-github fa-xl"></i></a>
                     </div>
                 </div>
             </div>
+        </div>
     );
 }
 
