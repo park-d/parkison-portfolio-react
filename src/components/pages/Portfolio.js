@@ -37,7 +37,7 @@ function Portfolio() {
                     image={noteTakerImg}
                 />
                 <Project
-                    name='Weather Dashboard'
+                    name='Weather App'
                     github='https://github.com/park-d/weather-dashboard'
                     deployed='https://park-d.github.io/weather-dashboard/'
                     image={weatherImg}
