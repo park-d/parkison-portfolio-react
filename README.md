@@ -25,6 +25,7 @@ After installation, you can run `npm start` to run the app in the development mo
 The page will reload when you make changes. You may also see any lint errors in the console.
 
 This portfolio is deployed at the following link: [Parkison Portfolio](https://park-d.github.io/parkison-portfolio-react/#portfolio)
+
 ![Parkison Portfolio Screenshot](./src/images/parkison-portfolio.JPG)
 
 ## Credits
