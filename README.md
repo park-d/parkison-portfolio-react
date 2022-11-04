@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-This is my professional portfolio. Is it a single page React application. It contains four sections: about, projects, contact, and resume. In the about section you can view a short blurb about me, projects display 6 of my recent web development projects, contact is a form that you can fill out in order to get in touch with me, and finally resume contains my downloadable resume, as well as lists of hard and soft skills.
+This is my professional portfolio. It is a single page React application. It contains four sections: about, projects, contact, and resume. In the about section you can view a short blurb about me, projects display 6 of my recent web development projects, contact is a form that you can fill out in order to get in touch with me, and finally resume contains my downloadable resume, as well as lists of hard and soft skills.
 
  
 ## Table of Contents
