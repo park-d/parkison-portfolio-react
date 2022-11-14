@@ -8,8 +8,8 @@ function Project(props) {
                 <div className="card-body">
                     <h4 className="card-title d-flex justify-content-center">{props.name}</h4>
                     <div className='d-flex justify-content-center styled-anchors'>
-                        <a className='styled-anchor' href={props.deployed}>View Application</a>
-                        <a className='styled-anchor' href={props.github}><i className="fa-brands fa-github fa-xl"></i></a>
+                        <a className='styled-anchor' href={props.deployed} target="_blank" rel="noreferrer">View Application</a>
+                        <a className='styled-anchor' href={props.github} target="_blank" rel="noreferrer"><i className="fa-brands fa-github fa-xl"></i></a>
                     </div>
                 </div>
             </div>

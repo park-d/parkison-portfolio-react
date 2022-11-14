@@ -5,7 +5,7 @@ import weatherNotImg from '../../images/weather-or-not-photo.JPG'
 import jateImg from '../../images/jate-photo.JPG'
 import noteTakerImg from '../../images/note-taker-photo.JPG'
 import weatherImg from '../../images/weather-photo.JPG'
-import techBlogImg from '../../images/tech-blog-photo.JPG'
+import homeImg from '../../images/home-photo.JPG'
 
 function Portfolio() {
     return (
@@ -18,6 +18,12 @@ function Portfolio() {
                     deployed='https://teamspeak-org.herokuapp.com/'
                     image={teamSpeakImg}
                 />
+                    <Project
+                        name='Home Assistant App'
+                    github='https://github.com/RBL1992/home'
+                    deployed='https://calm-retreat-29451.herokuapp.com'
+                        image={homeImg}
+                    />
                 <Project
                     name='Weather or Not'
                     github='https://github.com/Shengaero/weather-or-not'
@@ -41,12 +47,6 @@ function Portfolio() {
                     github='https://github.com/park-d/weather-dashboard'
                     deployed='https://park-d.github.io/weather-dashboard/'
                     image={weatherImg}
-                />
-                <Project
-                    name='MVC Tech Blog'
-                    github='https://github.com/park-d/MVC-tech-blog'
-                    deployed='https://mysterious-bastion-25822.herokuapp.com/'
-                    image={techBlogImg}
                 />
             </div>
         </div>
